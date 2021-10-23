@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.wrapper > *{
+    padding: 0px 90px 0px 90px;
+}
+/*
+*   Main Division
+*/
+.navbar{
+    height: 81px;
+    background-color: #211e33;
+    color: white;
+}
+.campoDemo{
+    height: 850px;
+    position: relative;
+    color: white;
+    background-color: #211e33;
+}
+.howitworks{
+    height: 630px;
+    justify-items: center;
+    background: rgb(33,30,51);
+    background: linear-gradient(180deg, rgba(33,30,51,1) 56%, rgba(53,52,96,1) 98%);
+    color: white;
+}
+.clients{
+    height: 825px;
+    padding-top: 220px;
+    background: rgb(53,52,96);
+    background: linear-gradient(189deg, rgba(53,52,96,1) 21%, rgba(65,64,122,1) 32%, rgba(255,255,255,1) 35%);
+}
+.modules{
+    height: 826px;
+    background: rgb(255,255,255);
+    background: linear-gradient(199deg, rgba(255,255,255,1) 20%, rgba(228,228,228,1) 100%); /*CHANGE*/
+}
+.api{
+    height: 914px;
+    background-color: #211e33;
+}
+.pipeline{
+    height: 942px;
+    background-color: #211e33;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 100px;
+}
+.trusted{
+    height: 819px;
+    background-color: rgb(255, 254, 254);
+}
+.getStarted{
+    height: 779px;
+    background-color: #fefefe;
+}
+.lastPart{
+    background: rgb(45,54,95);
+    background: radial-gradient(circle, rgba(45,54,95,1) 42%, rgba(37,46,79,1) 75%);
+}
+.footer{
+    height: 662px;
+}
+.references{
+    height: 88px;
+}
+/* END OF MAIN DIVISION */
+
+/* START SUB DIVISIONS */
+.multiBrands{
+    padding-top: 85px;
+}
+.sideByside{
+    padding-top: 70px;
+}
+.textTitle{
+    width: 838px;
+    text-align: center;   
+}
+.image2 > img{
+    width: 910px;
+    
+}
+.textTitle > h2{
+    font-size: 47px;
+    font-weight: bold;
+}
+.font1{
+    font-family: 'DM Sans', sans-serif;
+}
+.font1-b{
+    font-weight: bold;
+}
+.textTitle > p{
+    font-size: 20px;
+}
+.mailClass > button{
+    color: white;
+}
+.mailClass > input[type="email"]{
+    background-color: #100e19;
+   border-color: #52bc93a4;
+    
+}
+.side1{
+    width: 300px;
+    
+}
+.mailClass > input::placeholder{
+     color: #52bc9393;
+}
+.centered{
+    text-align: center;
+    bottom: 0%;
+}
+.navbar > ul>li>a{
+    color: white;
+}
+.navbar > ul>li>a:hover{
+    transition: 0.7s;
+    color: white;
+    text-decoration: underline;
+}
+.log > .btn{
+    color: white;
+}
+.log > .btn:hover{
+    color: white;
+}
+.trab1{
+    position:relative;
+    right: -90px;
+    width: 612px;
+}
+.goodData> div > span{
+    font-weight: bold;
+}
+.goodData> .setaMarketing > span{
+    color: #ada2f0;
+}
+.goodData> .prodMarketing > span{
+    color: #7dd3e0;
+}
+.goodData> .engenMarketing > span{
+    color: #7fd5b2;
+}
+.goodData> div > div > p{
+    color: #cfcdcde0;
+}
+.goodData > div{
+    height: 150px;
+}
+
+.sideByside > .goodData{
+    position: relative;
+    left: -200px;
+}
+.sideByside >div>.col{
+    position: relative;
+    left: -88px;
+}
+#rotate{
+    transform: rotate(90deg);
+}
+.text{
+    padding-left: 110px;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+.greenLink > a{
+    color: #7fd5b2;
+    font-weight: bold;
+    text-decoration: none;
+}
+.greenLink > a:hover{
+    color: #549178;
+}
+.text > h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.headerText{
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+.text > p{
+    color: rgb(173, 172, 172);
+}
+.selector > li{
+    height: 30px;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(185, 185, 185);
+}
+.ns{
+    padding-left: 1em;
+    color:rgb(138, 136, 136);
+}
+.segment{
+    padding-top: 2em;
+}
+.selector > .sel{
+    border-color: #549178;
+    color: #549178;
+}
+.bottom{
+    bottom: 0%  ;
+}
+.someModule{
+    margin-top: 126px;
+}
+
+div > div > div > div > p{
+    font-size: 20px;
+}
+
+.padding{
+    padding-top: 224px;
+}
+
+.h2white > h2{
+    color: white;
+}
+
+.h2white{
+    padding-top: 26px;
+}
+a.sideLink>svg{
+    fill: #53bd95;
+}
+.pipeline > h1{
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.pipeline > p{
+    color: #a9accb;
+    padding-bottom: 80px;
+}
+
+.intern{
+    padding-left: 100px;
+}
+
+.footer > div >div>p{
+    color: white
+}
+li>a{
+    text-decoration: none;
+    color: #a9accb;
+}
+li>a:hover{
+    color: #666772;
+}
+
+.getStarted{
+    display: flex;
+    flex-direction: row;
+}
+.imgTrab{
+    position: relative;
+    top: 9%;
+    left: 7.5%;
+}
+
+.boxImg{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+}
+.boxImg > span{
+    transform: rotate(-90deg);
+    color: rgb(138, 136, 136);
+    
+}
+leftTxt{
+    top: 50%;
+    left: 10px;
+}
+rightTxt{
+    top: 50%;
+    right: 1000px;
+}
+
+.lastPart{
+    padding-top: 74px;
+}   
+
+.references{
+    background-color: #252e4f;
+    padding-top: 32px;
+}
+.someForms{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 465px;
+    height: 50px;
+    padding-left: 100px;
+}
+.newsletter1{
+    background-color: #211e33;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.inputFinal > input[type="email"]{
+    background-color:#211e33;
+    border-color: #211e33;
+}
+.inputFinal > input[type="email"]::placeholder{
+    color:#53bd95;
+}
+
+.superClass{
+    padding-left: 100px;
+}
+
+.liks{
+    padding-top: 60px;
+}
+.liksSpacing > ul > li{
+    padding-bottom: 17px;
+}
+.iconsFooter{
+    position: relative;
+    right: -44%;
+}
+
+.greenTxt > span{
+    color:#53bd95;
+}
+
+.greenTxt{
+    padding-top: 100px;
+    margin-right: 35%;
+    font-size: 50px;
+}
