@@ -339,6 +339,77 @@ rightTxt{
 
 .greenTxt{
     padding-top: 100px;
+    padding-bottom: 50px;
     margin-right: 35%;
     font-size: 50px;
+}
+
+.grandCard{
+    
+    display: -webkit-flex;
+    flex-direction: row;
+    width: 1008px;  ;height: 431px;
+    align-items: center;
+    background: url(/img/backgroundTrusted.png);
+}
+.littleCard1{
+    margin: 45px 45px 45px 45px;
+    width: 1316px;
+    color: white;
+    position: relative;
+}
+.littleCard1 > .name{
+        font-weight: bold;
+    }
+.littleCard1 > .commas{
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.littleCard1 > .position{
+    font-size: 10px;
+}
+img[alt="IBM"]{
+    position: absolute;
+    height: 40px;
+    top: -25%;
+}
+.divImage{
+    padding-top: 50px;
+}
+.littleCard2{
+    margin: 45px 45px 45px 45px;
+    color: #1940c3;
+}
+.titleNum{
+    display: flex;
+    flex-direction: row
+}
+.titleNum >p{
+    font-size: 50px;
+}
+.titleNum > h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.wt-button{
+    width: 50px; height: 50px;
+    position: absolute;
+    visibility: hidden; /*remove to edit the buttons*/
+}
+.wt-left{
+    left: -100px;
+}
+.setaRead{
+    display: flex;
+    flex-direction: row;
+}
+.setaRead > a{
+    transition: 0.5s;
+    padding-left: 10px;
+    text-decoration: none;
+    color: gray;
+}
+.setaRead > a:hover{
+    transition: 0.5s;
+    color: rgb(187, 187, 187);
 }
