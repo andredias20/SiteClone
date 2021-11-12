@@ -1,3 +1,3 @@
-# SW2---Trabalho-1
+# SW2 - TRABALHO P1
 
-Este foi um repositorio criado para armazenar o primeiro trabalho de SW2.
+Esta foi uma avaliacao feita em SW2 no qual foi feita a copia de um site ja existente da internet atraves de 1 arquivo de imagem.
